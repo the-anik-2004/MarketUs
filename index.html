@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketUs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main position-relative ">
+        <header >
+            <div id="main-nav " class="fixed-top">
+              <!--Upper Nav-->
+              <nav id="upper-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEle" aria-expanded="false" aria-label="Toggle navigation" aria-controls="offcanvasEle">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">YourWebsite</a>
+                  <div  class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasEle" aria-labelledby="offcanvasEleLabel">
+                      <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasEleLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                              <ul >
+                                  <li class="form">
+                                      <form  id="src" class="d-flex " role="search">
+                                          <input id="src-in" class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                                          <button id="src-btn" class="btn btn-outline-success" type="submit">Search</button>
+                                        </form>
+                                     </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Explore</a>
+                                  </li>
+                                </ul>
+                                <div class="dropdown">
+                                  <button class="btn btn-secondary dropdown-toggle ms-lg-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">Add Location
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li> 
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3687.0384010030857!2d88.3806788!3d22.4651912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1703182861748!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </li>
+                                  </ul>
+                                </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+              
+                    <ul class="navbar-nav collapse navbar-collapse p-1" >
+                      <li class="form ms-lg-1 ms-md">
+                          <form  id="src" class="d-flex " role="search">
+                              <input id="src-in" class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                              <button id="src-btn" class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                         </li>
+                      <li class="nav-item">
+              
+                          <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle ms-lg-5 ms-md-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">Add Location
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li> 
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3687.0384010030857!2d88.3806788!3d22.4651912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1703182861748!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </li>
+                              </ul>
+                            </div>
+                
+                      </li>
+                    </ul>
+                    <di class="left-nav">
+                  
+                    
+                          <div><a href="#"><i class="fa-solid fa-cart-arrow-down" style="color: #f4f6fa;"></i></a></div>
+                          <div class="account ms-3"></div>
+                    </di>
+              
+                    
+                  </div>
+               
+              </nav> 
+        
+        
+              <!--Lower Nav-->
+              <nav id="lower-nav" class="  bg-body-tertiary px-3 mb-3">
+             
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <!--Lower Nav End-->
+            </div>
+       
+
+      <section  class="container-fluid" id="front-page">
+        <div class="row" id="fp-row">
+          <div id="fp-left" class="col col-12 col-lg-4 col-md-4 ">gvg</div>
+          <!--Right Content-->
+          <div id="fp-right" class="col col-12 col-lg-8 col-md-8">
+              <!--carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div id="s1" class="carousel-item active">
+                  <!-- <img src="./images/slide-1.jpeg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div id="s2" class="carousel-item">
+                  <!-- <img src="./images/slide-3.jpeg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div id="s3" class="carousel-item">
+                  <!-- <img src="./images/slide-4.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+            <!--carousel-->
+          </div>
+        </div>
+        
+
+      </section>
+
+    </header>
+
+
+
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">First heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>...</p>
+      </div>
+      
+      
+
+    </div>
+
+    
+
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
