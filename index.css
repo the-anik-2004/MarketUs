@@ -1,16 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+   
     box-sizing: border-box;
 }
 body{
+    
     min-width: 100vw;
     min-height: 100vh;
 }
 
+#logo{
+    display: block;
+    height: 50px;
+    width: 120px;
 
+}
 i{
-    font-size: 40px;
+    font-size: 30px;
 }
 #main-nav{
     position: sticky;
@@ -18,8 +25,8 @@ i{
     top:0;
 }
 .account{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-color: yellow;
     border-radius: 50%;
 }
@@ -116,10 +123,7 @@ b{
     }
 }
 
-/* glow effect */
-#fp-right{
-    /* background-color: red; */
-}
+
 .carousel-item{
     scroll-behavior: smooth;
     height: 500px;
@@ -143,4 +147,9 @@ b{
 
 #card-link{
     text-decoration: none;
+}
+
+.box:hover{
+    z-index: 10;
+    box-shadow: 0 0 10px 10px;
 }
