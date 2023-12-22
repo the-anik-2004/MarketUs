@@ -54,37 +54,71 @@ i{
     display: flex;
     justify-content: center;
 }
-#lower-nav{
-    background-color: yellow;
+#lower-nav,#dln{
+    background-color:rgba(5, 5, 5, 0.566);
+    /* color: aliceblue; */
+}
+#ln,#dln,#dln-item{color: aliceblue;}
+#ln:hover{
+    background-color: dodgerblue;
+    color: azure;
+}
+#dln-item:hover{
+    background-color: rgb(250, 199, 11);
+    color: rgb(4, 4, 4);
 }
 #front-page{
-    margin-top: 10%;
+    margin-top: 125px;
 }
 .col{
+    
     min-height: 60vh;
 }
-
-@media screen and (max-width:480px){
+ 
+b{
+    color: green;
+}
+@media screen and (max-width:450px){
     .col{
-        min-height: 30vh;
+        min-height: 20vh;
     }
     #front-page{
         margin-top:168px;
     }
-
 }
-@media screen and (max-width:830px) and (min-width:481px){
+@media screen and (max-width:830px) and (min-width:451px){
     .col{
         min-height: 40vh;
     }
 
 }
-
+/* glow effect */
 #fp-left{
-    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
 }
+#fpl-card h1{
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(to right,red,rgb(245, 249, 7));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.484);
+    animation: anime 1s infinite alternate;
+}
+@keyframes anime{
+    100%{
+        text-shadow: 0 0 60px rgba(255, 213, 0, 0.523);  
+    }
+}
+
+/* glow effect */
 #fp-right{
-    background-color: red;
+    /* background-color: red; */
 }
 .carousel-item{
     scroll-behavior: smooth;
@@ -105,4 +139,8 @@ i{
 #s3{
    
     background-image: url(./images/slide-4.jpg);
+}
+
+#card-link{
+    text-decoration: none;
 }

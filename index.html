@@ -101,21 +101,21 @@
              
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" id="ln">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                    <a class="nav-link" href="#scrollspyHeading1" id="ln">Best Electronics</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                    <a class="nav-link" href="#scrollspyHeading2" id="ln">Second</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" id="ln">Dropdown</a>
+                    <ul class="dropdown-menu"id="dln">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3" id="dln-item">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4" id="dln-item">Fourth</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5" id="dln-item">Fifth</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -125,8 +125,17 @@
        
 
       <section  class="container-fluid" id="front-page">
+        <!--Left Content-->
         <div class="row" id="fp-row">
-          <div id="fp-left" class="col col-12 col-lg-4 col-md-4 ">gvg</div>
+
+          <div id="fp-left" class="col col-12 col-lg-4 col-md-4 ">
+            <div id="fpl-card">
+              <h1>Welcome To Our website</h1>
+       
+            </div>
+
+          </div>
+
           <!--Right Content-->
           <div id="fp-right" class="col col-12 col-lg-8 col-md-8">
               <!--carousel-->
@@ -169,16 +178,86 @@
 
 
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-        <h4 id="scrollspyHeading1">First heading</h4>
-        <p>...</p>
+        <h4 id="scrollspyHeading1">Best Electronics</h4>
+        <div>
+          <div class="row box">
+
+            <div class="col-lg-2 col-md-4 col-sm-6 ">
+              <a  id="card-link" href="#">
+                <div class="card" style="width: 18rem;">
+                  <img src="./images/hp-envy-1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Get flagship Windows Laptop <br><b>Starting from Rs.60K</b> </p>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-6 ">
+              <a  id="card-link" href="#">
+                <div class="card" style="width: 18rem;">
+                  <img src="./images/hp-envy-1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Get flagship Windows Laptop <br><b>Starting from Rs.60K</b> </p>
+                  </div>
+                </div>
+              </a>
+          </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <a  id="card-link" href="#">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/s23-2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Smart phones you want <br><b>Starting from Rs.8000 </b> </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <a  id="card-link" href="#">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/hp-envy-1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Get flagship Windows Laptop <br><b>Starting from Rs.60K</b> </p>
+              </div>
+            </div>
+          </a>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-sm-6 ">
+        <a  id="card-link" href="#">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/hp-envy-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Get flagship Windows Laptop <br><b>Starting from Rs.60K</b> </p>
+            </div>
+          </div>
+        </a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 ">
+      <a  id="card-link" href="#">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/hp-envy-1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Get flagship Windows Laptop <br><b>Starting from Rs.60K</b> </p>
+          </div>
+        </div>
+      </a>
+  </div>
+
+          </div>
+        </div>
         <h4 id="scrollspyHeading2">Second heading</h4>
-        <p>...</p>
+        <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur eos, necessitatibus nisi harum unde! Obcaecati facere quod ipsa sint neque? Quae sunt et nemo cupiditate fuga repellat consequuntur doloribus tenetur, dolorum, atque reprehenderit pariatur debitis! Eos non facilis ratione nulla pariatur esse nemo, voluptates omnis ullam incidunt ipsum vero sit blanditiis autem sed, ipsam impedit? Quisquam repellat dignissimos id quas consectetur ipsam maiores nemo vero quidem recusandae impedit laboriosam, dolorum labore, aliquid enim repellendus sunt ullam harum eaque nobis accusantium. Ipsum fugiat voluptas provident reiciendis reprehenderit quod nulla dolore totam eos beatae sint pariatur iusto eveniet cumque error voluptates labore, omnis debitis quasi nobis necessitatibus. Earum tempora necessitatibus, nemo itaque dolores dicta natus sint, incidunt, asperiores vero molestias quia laboriosam quis aperiam amet culpa. Repellendus, aperiam aliquam sapiente illum cumque sequi nemo minus veritatis dolore ipsam amet enim laborum fuga impedit vitae accusamus iste nam nobis aut aliquid alias quam unde quasi commodi. Obcaecati ad, odit natus eligendi esse inventore perferendis a nobis corporis voluptatem animi illo saepe id aperiam necessitatibus amet totam architecto, atque dolore voluptate quos debitis. Deserunt voluptatem laboriosam tenetur ratione nulla atque facere nobis dicta amet cupiditate obcaecati commodi expedita quia quo quidem eos soluta vel quasi, impedit inventore excepturi. Eveniet quae neque ex amet, maiores quaerat quo odio porro et dicta repudiandae ipsam pariatur sequi earum natus impedit ab ratione asperiores illo, ea distinctio itaque animi voluptas? Consequuntur harum in laudantium rerum. Maxime perferendis praesentium voluptatibus unde cupiditate quis itaque delectus deleniti placeat temporibus libero fugit ducimus, accusamus totam optio eius beatae nulla nostrum dolores voluptatum. Beatae atque iusto commodi qui reiciendis? Saepe asperiores accusamus facilis fugit nulla cupiditate dolorum quisquam numquam minus culpa ipsa temporibus ducimus, neque, error maiores sapiente officia velit? Omnis, id debitis deleniti rem quae inventore quod temporibus aliquid voluptates.</p>
         <h4 id="scrollspyHeading3">Third heading</h4>
-        <p>...</p>
+        <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur eos, necessitatibus nisi harum unde! Obcaecati facere quod ipsa sint neque? Quae sunt et nemo cupiditate fuga repellat consequuntur doloribus tenetur, dolorum, atque reprehenderit pariatur debitis! Eos non facilis ratione nulla pariatur esse nemo, voluptates omnis ullam incidunt ipsum vero sit blanditiis autem sed, ipsam impedit? Quisquam repellat dignissimos id quas consectetur ipsam maiores nemo vero quidem recusandae impedit laboriosam, dolorum labore, aliquid enim repellendus sunt ullam harum eaque nobis accusantium. Ipsum fugiat voluptas provident reiciendis reprehenderit quod nulla dolore totam eos beatae sint pariatur iusto eveniet cumque error voluptates labore, omnis debitis quasi nobis necessitatibus. Earum tempora necessitatibus, nemo itaque dolores dicta natus sint, incidunt, asperiores vero molestias quia laboriosam quis aperiam amet culpa. Repellendus, aperiam aliquam sapiente illum cumque sequi nemo minus veritatis dolore ipsam amet enim laborum fuga impedit vitae accusamus iste nam nobis aut aliquid alias quam unde quasi commodi. Obcaecati ad, odit natus eligendi esse inventore perferendis a nobis corporis voluptatem animi illo saepe id aperiam necessitatibus amet totam architecto, atque dolore voluptate quos debitis. Deserunt voluptatem laboriosam tenetur ratione nulla atque facere nobis dicta amet cupiditate obcaecati commodi expedita quia quo quidem eos soluta vel quasi, impedit inventore excepturi. Eveniet quae neque ex amet, maiores quaerat quo odio porro et dicta repudiandae ipsam pariatur sequi earum natus impedit ab ratione asperiores illo, ea distinctio itaque animi voluptas? Consequuntur harum in laudantium rerum. Maxime perferendis praesentium voluptatibus unde cupiditate quis itaque delectus deleniti placeat temporibus libero fugit ducimus, accusamus totam optio eius beatae nulla nostrum dolores voluptatum. Beatae atque iusto commodi qui reiciendis? Saepe asperiores accusamus facilis fugit nulla cupiditate dolorum quisquam numquam minus culpa ipsa temporibus ducimus, neque, error maiores sapiente officia velit? Omnis, id debitis deleniti rem quae inventore quod temporibus aliquid voluptates.</p>
         <h4 id="scrollspyHeading4">Fourth heading</h4>
-        <p>...</p>
+        <p>.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur eos, necessitatibus nisi harum unde! Obcaecati facere quod ipsa sint neque? Quae sunt et nemo cupiditate fuga repellat consequuntur doloribus tenetur, dolorum, atque reprehenderit pariatur debitis! Eos non facilis ratione nulla pariatur esse nemo, voluptates omnis ullam incidunt ipsum vero sit blanditiis autem sed, ipsam impedit? Quisquam repellat dignissimos id quas consectetur ipsam maiores nemo vero quidem recusandae impedit laboriosam, dolorum labore, aliquid enim repellendus sunt ullam harum eaque nobis accusantium. Ipsum fugiat voluptas provident reiciendis reprehenderit quod nulla dolore totam eos beatae sint pariatur iusto eveniet cumque error voluptates labore, omnis debitis quasi nobis necessitatibus. Earum tempora necessitatibus, nemo itaque dolores dicta natus sint, incidunt, asperiores vero molestias quia laboriosam quis aperiam amet culpa. Repellendus, aperiam aliquam sapiente illum cumque sequi nemo minus veritatis dolore ipsam amet enim laborum fuga impedit vitae accusamus iste nam nobis aut aliquid alias quam unde quasi commodi. Obcaecati ad, odit natus eligendi esse inventore perferendis a nobis corporis voluptatem animi illo saepe id aperiam necessitatibus amet totam architecto, atque dolore voluptate quos debitis. Deserunt voluptatem laboriosam tenetur ratione nulla atque facere nobis dicta amet cupiditate obcaecati commodi expedita quia quo quidem eos soluta vel quasi, impedit inventore excepturi. Eveniet quae neque ex amet, maiores quaerat quo odio porro et dicta repudiandae ipsam pariatur sequi earum natus impedit ab ratione asperiores illo, ea distinctio itaque animi voluptas? Consequuntur harum in laudantium rerum. Maxime perferendis praesentium voluptatibus unde cupiditate quis itaque delectus deleniti placeat temporibus libero fugit ducimus, accusamus totam optio eius beatae nulla nostrum dolores voluptatum. Beatae atque iusto commodi qui reiciendis? Saepe asperiores accusamus facilis fugit nulla cupiditate dolorum quisquam numquam minus culpa ipsa temporibus ducimus, neque, error maiores sapiente officia velit? Omnis, id debitis deleniti rem quae inventore quod temporibus aliquid voluptates..</p>
         <h4 id="scrollspyHeading5">Fifth heading</h4>
-        <p>...</p>
+        <p>... Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aspernatur eos, necessitatibus nisi harum unde! Obcaecati facere quod ipsa sint neque? Quae sunt et nemo cupiditate fuga repellat consequuntur doloribus tenetur, dolorum, atque reprehenderit pariatur debitis! Eos non facilis ratione nulla pariatur esse nemo, voluptates omnis ullam incidunt ipsum vero sit blanditiis autem sed, ipsam impedit? Quisquam repellat dignissimos id quas consectetur ipsam maiores nemo vero quidem recusandae impedit laboriosam, dolorum labore, aliquid enim repellendus sunt ullam harum eaque nobis accusantium. Ipsum fugiat voluptas provident reiciendis reprehenderit quod nulla dolore totam eos beatae sint pariatur iusto eveniet cumque error voluptates labore, omnis debitis quasi nobis necessitatibus. Earum tempora necessitatibus, nemo itaque dolores dicta natus sint, incidunt, asperiores vero molestias quia laboriosam quis aperiam amet culpa. Repellendus, aperiam aliquam sapiente illum cumque sequi nemo minus veritatis dolore ipsam amet enim laborum fuga impedit vitae accusamus iste nam nobis aut aliquid alias quam unde quasi commodi. Obcaecati ad, odit natus eligendi esse inventore perferendis a nobis corporis voluptatem animi illo saepe id aperiam necessitatibus amet totam architecto, atque dolore voluptate quos debitis. Deserunt voluptatem laboriosam tenetur ratione nulla atque facere nobis dicta amet cupiditate obcaecati commodi expedita quia quo quidem eos soluta vel quasi, impedit inventore excepturi. Eveniet quae neque ex amet, maiores quaerat quo odio porro et dicta repudiandae ipsam pariatur sequi earum natus impedit ab ratione asperiores illo, ea distinctio itaque animi voluptas? Consequuntur harum in laudantium rerum. Maxime perferendis praesentium voluptatibus unde cupiditate quis itaque delectus deleniti placeat temporibus libero fugit ducimus, accusamus totam optio eius beatae nulla nostrum dolores voluptatum. Beatae atque iusto commodi qui reiciendis? Saepe asperiores accusamus facilis fugit nulla cupiditate dolorum quisquam numquam minus culpa ipsa temporibus ducimus, neque, error maiores sapiente officia velit? Omnis, id debitis deleniti rem quae inventore quod temporibus aliquid voluptates.</p>
       </div>
       
       
