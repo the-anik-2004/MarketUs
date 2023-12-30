@@ -98,7 +98,9 @@ color: #000;
 }
 
 
-
+.offcanvas{
+    background-color: rgba(246, 246, 246, 0.763);
+}
 
 .account{
     display: flex;
