@@ -26,7 +26,7 @@ i{
     top:0;
 }
 
-.fa-sun{
+/* .fa-sun{
     margin: top 1px;
     margin-left: 3px;
     font-size: 24px;
@@ -91,7 +91,7 @@ visibility: hidden;
 }
 .main{
     z-index: 500;
-}
+} */
 #dark-mode:checked+#hng{
 color: #000;
 
