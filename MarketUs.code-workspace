@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../myFirstWebSiteDemo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MarketUs"
+	}
+}
