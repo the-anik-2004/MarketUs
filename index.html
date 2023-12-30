@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarketUs</title>
+    <title>MarketIn</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="bootstrap.min.css">
-    
+    <link rel="shortcut icon" href="./images/plane-takeoff-bottom-view-closeup-600nw-1134410903-modified.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <a class="navbar-brand" href="#"><img id="logo" src="./images/marketIN-removebg-preview.png" alt=""></a>
-                  <div  class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasEle" aria-labelledby="offcanvasEleLabel">
+                  <div  class="offcanvas offcanvas-start" tabindl̥ōex="-1" id="offcanvasEle" aria-labelledby="offcanvasEleLabel">
                       <div class="offcanvas-header">
                           <h5 class="offcanvas-title" id="offcanvasEleLabel">Offcanvas</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -47,6 +47,11 @@
                                   <li class="nav-item">
                                     <a class="nav-link" href="#">Explore</a>
                                   </li>
+                                  <li class="nav-item">
+                                    <input type="checkbox"  id="dark-mode">
+                                    <label id="th" for="dark-mode"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></label>
+                                  
+                                  </li>
                                 </ul>
                                 <div class="dropdown">
                                   <button class="btn btn-secondary dropdown-toggle ms-lg-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">Add Location
@@ -69,6 +74,13 @@
                               <button id="src-btn" class="btn btn-outline-success" type="submit">Search</button>
                             </form>
                          </li>
+
+                         <!--Theme changer-->
+                         <li class=" nav-item">
+                          <input type="checkbox"  id="dark-mode">
+                          <label id="th" for="dark-mode"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></label>
+                         </li>
+                         <!--Theme changer-->
                       <li class="nav-item">
               
                           <div class="dropdown">
@@ -83,16 +95,15 @@
                 
                       </li>
                     </ul>
-                    <di class="left-nav">
+                    <div class="left-nav">
                   
-                    
                           <div><a href="#"><i class="fa-solid fa-cart-arrow-down" style="color: #f4f6fa;"></i></a></div>
-                          <div class="account ms-3"></div>
-                    </di>
+                          <div class="account ms-3 modal-body"><i  class="fa-solid fa-user"></i></div>
+                    </div>
               
                     
                   </div>
-               
+                
               </nav> 
         
         
@@ -130,7 +141,7 @@
 
           <div id="fp-left" class="col col-12 col-lg-4 col-md-4 ">
             <div id="fpl-card">
-              <h1>Welcome To Our website</h1>
+              <h1>MarketIn</h1>
        
             </div>
 
@@ -181,15 +192,16 @@
             <div class="bscard" id="bscard1">
               <span class="badge bg-danger" >New</span>
               <div class="des bs-des1">
-                <div class="bs-con">
-                  <p>Adidas Spider Shoes</p>
-                  <p id="price"> Rs.3299   <s class="strike-through" style="font-weight: lighter;">Rs.9999</s></p>
-                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                  
-                </div>
+                <a  id="link-wrapper" href="spider-man-shoes.html" target="_blank">
+                  <div class="bs-con">
+                    <p>Adidas Spider-Man Shoes</p>
+                    <p id="price"> Rs.3299   <s class="strike-through" style="font-weight: lighter;">Rs.9999</s></p>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div>
+                </a>
               <div class="ac-bn d-flex">
-                <button class="add-to-cart"><a id="atc-link" href="">Add to Cart</a></button>
-                <button class="buy-now"><a id="bn-link" href="">Buy Now</a></button>
+                <button class="add-to-cart"><a id="atc-link"  href="">Add to Cart</a></button>
+                <button class="buy-now"><a id="bn-link"  href="buynow.html" target="_parent">Buy Now</a></button>
               </div>
               </div>
             </div>
@@ -203,8 +215,8 @@
                   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 </div>
               <div class="ac-bn d-flex">
-                <button class="add-to-cart"><a id="atc-link" href="">Add to Cart</a></button>
-                <button class="buy-now"><a id="bn-link" href="">Buy Now</a></button>
+                <button class="add-to-cart"><a id="atc-link" >Add to Cart</a></button>
+                <button class="buy-now"><a id="bn-link" >Buy Now</a></button>
               </div>
               </div>
             </div>
@@ -217,8 +229,8 @@
                   <p id="price"> Rs.199    <s class="strike-through" style="font-weight: lighter;">Rs.499</s></p>
                   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 </div> <div class="ac-bn d-flex">
-                <button class="add-to-cart"><a id="atc-link" href="">Add to Cart</a></button>
-                <button class="buy-now"><a id="bn-link" href="">Buy Now</a></button>
+                <button class="add-to-cart"><a id="atc-link" >Add to Cart</a></button>
+                <button class="buy-now"><a id="bn-link" >Buy Now</a></button>
               </div>
               </div>
             </div>
@@ -232,8 +244,8 @@
                   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 </div>
                  <div class="ac-bn d-flex">
-                <button class="add-to-cart"><a id="atc-link" href="">Add to Cart</a></button>
-                <button class="buy-now"><a id="bn-link" href="">Buy Now</a></button>
+                <button class="add-to-cart"><a id="atc-link" >Add to Cart</a></button>
+                <button class="buy-now"><a id="bn-link" >Buy Now</a></button>
               </div>
               </div>
             </div>
@@ -246,9 +258,11 @@
                   <p id="price"> Rs.249    <s class="strike-through" style="font-weight: lighter;">Rs.499</s></p>
                   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                 </div>
+               
+               
                   <div class="ac-bn d-flex">
-                <button class="add-to-cart"><a id="atc-link" href="">Add to Cart</a></button>
-                <button class="buy-now"><a id="bn-link" href="">Buy Now</a></button>
+                <button class="add-to-cart"><a id="atc-link" >Add to Cart</a></button>
+                <button class="buy-now"><a id="bn-link" >Buy Now</a></button>
               </div>
               </div>
             </div>
@@ -625,10 +639,6 @@
       
       </div>
       
-      
-
-        
-
    <footer class="bg-dark">
     <div class="row">
       <div class=" offset-lg-1 col-2 col-md-12 col-sm-12 footer-ele ">
@@ -685,5 +695,6 @@
   
 
     <script src="bootstrap.bundle.js"></script>
+    <script src="additional.js" defer></script>
 </body>
 </html>
