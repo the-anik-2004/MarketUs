@@ -4,12 +4,28 @@
    
     box-sizing: border-box;
 }
+
 body{
     
-    min-width: 100vw;
-    min-height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.main{
+    position: relative;
+    
 }
 
+#main-nav{
+    height: 10vh;
+    width: 100vw;
+}
+@media only screen and (min-width:768px) {
+    .con-left{
+        position: sticky;
+        z-index: 100;
+        top:0;
+    }
+}
 #logo{
     display: block;
     height: 50px;
@@ -19,11 +35,7 @@ body{
 i{
     font-size: 30px;
 }
-#main-nav{
-    position: sticky;
-    z-index: 100;
-    top:0;
-}
+
 .account{
     display: flex;
     justify-content: center;
@@ -65,3 +77,160 @@ i{
     display: flex;
     justify-content: center;
 }
+
+.con{position: relative;
+    top:7vh;
+    width: 100%;
+    height: auto;
+}
+.con-left{
+    position: sticky;
+    padding: 2% 4%;
+    height:90vh ;
+    
+}
+.bscard{
+    position: relative;
+    -webkit-text-stroke: 0.2px black;
+     border-radius: 15px 15px 0 0 ;
+     height:100%;
+     width: 100%;
+     border-radius: 15px;
+     margin: auto;
+     box-shadow: 0 0 12px;
+     background-size:contain;
+     background-position-x: center;
+     box-shadow: 0 0 10px 10px rgba(14, 13, 13, 0.58);
+    }
+    #bscard1{
+        color:#fff;
+        height: 100%;
+        width: 90%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLbhiGNP8itr8n0QuBEtU04zjQsIOvkc_4A&usqp=CAU);
+}
+
+
+.des{
+    padding: 4% 1%;
+    position: absolute;
+    top: 80%;
+    width:100%;
+    height: 20%;
+    border-radius: 15px;
+   
+    background-color: rgba(8, 8, 8, 0.372);
+}
+.des:hover{
+    box-shadow:inset 0 0 10px 10px rgba(132, 130, 130, 0.58);
+}
+
+.add-to-cart,.buy-now{
+    padding: 0 4%;
+    margin: 6% 2%;
+    width: 50%;
+    height: 30%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 2px;
+    box-shadow: 0 0 14px rgb(188, 234, 24);
+    /* background-color: transparent; */
+}
+.add-to-cart:hover{
+    background: yellow;
+    box-shadow: inset 0 0 10px red;
+    
+}
+#link-wrapper{
+    text-decoration: none;
+}
+.fa-star,.fa-star-half{
+    font-size: 11px;
+    color: yellow;
+    -webkit-text-stroke: 0.5px black;
+}
+#atc-link,#bn-link{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.buy-now:hover{
+    background: greenyellow;
+    box-shadow: inset 0 0 10px darkgreen
+}
+.bs-con{
+    margin-left: 12px;
+    color: rgb(253, 252, 252);
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    line-height: 1px;
+    height: 28%;
+    width: 100%;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.con-right{
+    /* background: #000; */
+    overflow-y: scroll;
+    height:auto ;
+    scroll-behavior: inherit;
+}
+
+.con-right::-webkit-scrollbar{
+    display: none;
+}
+
+
+.carousel{
+    margin-top: 4%;
+    margin: 4% auto;
+    height: 90%;
+    width: 90%;
+    box-shadow:0 0 4px 4px blue, 0 0 4px 8px red;
+}
+.carousel-control-prev-icon:hover{
+    /* background:linear-gradient(145deg,red ,blue); */
+    background-color:rgb(0, 8, 255);
+    color: rgb(253, 251, 251);
+}
+.carousel-control-next-icon:hover{
+    /* background:linear-gradient(145deg,red ,blue); */
+    background-color:red;
+    color: #fff;
+}
+carousel-inner{
+    pad: 4%;
+}
+.review{
+    
+    width: 100%;
+    font-size: 20px;
+    padding: 4% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:15px ;
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+}
+.review:hover{
+    box-shadow:  0 0 8px rgb(100, 100, 99);
+
+}
+.review div .fa-solid{
+    font-size: 20px;
+}
+
+.card-body{
+    margin-top: 10px;
+    width: 100%;
+    border-radius:500px ;
+    box-shadow:inset 0 0 5px;
+    cursor: pointer;
+}
+.progress{
+    margin: 10px 0;
+}
+.progress-bar,.progress{border-radius: 15px;}
