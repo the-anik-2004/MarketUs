@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin-left: 4px; */
+}
+
+body{
+    position: relative;
+   height: 100%;
+   width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+#main-nav{
+    height: 10vh;
+    width: 100vw;
+}
+.box{
+    min-width: 50px;
+    width: auto;
+}
+#logo{
+    display: block;
+    height: 50px;
+    width: 120px;
+
+}
+i{
+    font-size: 30px;
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: #fff;
+}
+.left-nav{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+}
+.dropdown{
+    width: 200px;
+}
+
+#src-in{
+    width:min-content;
+    margin-right: 0;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+#src-btn{
+    
+    border-bottom-left-radius:0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+
+/**====Navbar===*/
+/**====CONTENT===*/
+.main{
+    max-width: 100vw;
+    max-height: 100vh;
+   
+}
+.con{
+    position: relative;
+    height: 91vh;
+    margin-top: 9vh;
+  
+}
+.con-left{
+    background-color: black;
+    overflow-y:scroll;
+   height: 91vh;
+}
+.con-right{
+   position: sticky;
+   
+    background-color: yellow;
+    height: 91vh;
+}
