@@ -209,7 +209,7 @@ b{
 
 
 .carousel-item{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
     height: 500px;
     aspect-ratio: 3/4;
     background-size: contain;
@@ -222,26 +222,31 @@ b{
 }
 #s2{
 
-    background-image: url(./images/slide-2.jpeg);
+    background-image: url(./images/slide-3.jpeg);
 }
 #s3{
    
     background-image: url(./images/slide-4.jpg);
 }
+#s4{
+   
+    background-image: url(https://www.gktoday.in/wp-content/uploads/2010/06/products-versus-goods.png);
+}
 
 #card-link{
     text-decoration: none;
 }
-.card-img-top{
-    height:286.22px ;
-
-    aspect-ratio: 1/1;
+.card-img-top,.card{
+    max-width: 250px;
+    min-width: 139px; 
 }
+
 
 .box:hover{
     z-index: 10;
     box-shadow: 0 0 10px 10px;
 }
+
 footer{
     width: 100vw;
     margin-top: 4%;
@@ -285,8 +290,11 @@ footer{
     background-color: rgb(8, 205, 8);
     color: aliceblue;
     box-shadow:inset 0 0 4px darkgreen;
-    font-weight: 900;
-    
+    font-weight: 900; 
+}
+#card-link{
+    height: auto;
+    width: fit-content;
 }
 #footer-install{
     display: flex;
@@ -301,10 +309,6 @@ footer{
     margin-top: 4%;
 }
 
-/* .bscard{
-    height: 300px;
-    width: 150px;
-} */
 
 
 .row-bs{
@@ -316,15 +320,29 @@ footer{
     overflow-y: hidden;
     border-radius: 15px 15px 0 0 ;
     /* scrollbar-arrow-color: black; */
-    min-width: 45vw;
-    max-width: 1200px;
+    width: 60vw;
     height: 390px;
     box-shadow: inset 0px 0 20px  rgba(0, 0, 0, 0.712);
 }
+
 .row-bs::-webkit-scrollbar {
     width: 0;
     height: 0;
   }
+.carousel-item{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+  
+@media only screen and (max-width:420px) {
+    .row-bs{
+        width: 80vw;
+    }
+    .carousel-inner{
+       min-height: 30vh;
+    }
+}
 .bscard{
 margin:0 12px;
 -webkit-text-stroke: 0.2px black;
@@ -333,12 +351,14 @@ margin:0 12px;
  width: 300px;
  box-shadow: 0 0 12px;
  background-size:contain;
+}
 
+.bscard:hover{
+    box-shadow:inset 0 0 10px 10px rgba(255, 242, 4, 0.84);
 }
 
 #bscard1{
     color:#fff;
-    
     height: 120%;
     width:300px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLbhiGNP8itr8n0QuBEtU04zjQsIOvkc_4A&usqp=CAU);
