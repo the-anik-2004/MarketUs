@@ -98,3 +98,10 @@ i{
     background-color: yellow;
     height: 91vh;
 }
+.accordion-button{
+ 
+    display: flex;
+    flex-direction: row;
+   
+}
+.accordion-button div{margin: 0 80px;}
